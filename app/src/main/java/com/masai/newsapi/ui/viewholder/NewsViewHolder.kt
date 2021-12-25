@@ -7,7 +7,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.masai.newsapi.R
-import com.masai.newsapi.data.db.NewsEntity
+import com.masai.newsapi.data.local.NewsEntity
 
 class NewsViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 

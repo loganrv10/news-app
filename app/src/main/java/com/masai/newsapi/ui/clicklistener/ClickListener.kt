@@ -1,7 +1,6 @@
 package com.masai.newsapi.ui.clicklistener
 
-import com.masai.newsapi.data.db.NewsEntity
-import com.masai.newsapi.data.model.Articles
+import com.masai.newsapi.data.local.NewsEntity
 
 interface ClickListener {
 

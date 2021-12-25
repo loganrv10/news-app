@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.masai.newsapi.R
-import com.masai.newsapi.data.db.NewsEntity
+import com.masai.newsapi.data.local.NewsEntity
 import com.masai.newsapi.ui.clicklistener.ClickListener
 import com.masai.newsapi.ui.viewholder.NewsViewHolder
 

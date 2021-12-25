@@ -1,6 +1,5 @@
-package com.masai.newsapi.data.api
+package com.masai.newsapi.data.remote
 
-import com.masai.newsapi.data.model.Articles
 import com.masai.newsapi.data.model.NewsResponse
 import retrofit2.http.GET
 import retrofit2.http.Query

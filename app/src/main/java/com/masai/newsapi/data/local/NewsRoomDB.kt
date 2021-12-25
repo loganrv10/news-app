@@ -1,4 +1,4 @@
-package com.masai.newsapi.data.db
+package com.masai.newsapi.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

@@ -2,10 +2,9 @@ package com.masai.newsapi.di
 
 import android.content.Context
 import androidx.room.Room
-import androidx.room.RoomDatabase
-import com.masai.newsapi.data.api.ApiService
-import com.masai.newsapi.data.db.NewsDAO
-import com.masai.newsapi.data.db.NewsRoomDB
+import com.masai.newsapi.data.remote.ApiService
+import com.masai.newsapi.data.local.NewsDAO
+import com.masai.newsapi.data.local.NewsRoomDB
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

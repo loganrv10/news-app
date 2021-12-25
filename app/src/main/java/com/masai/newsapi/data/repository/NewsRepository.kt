@@ -1,16 +1,11 @@
 package com.masai.newsapi.data.repository
 
 import androidx.lifecycle.LiveData
-import com.masai.newsapi.data.Resource
-import com.masai.newsapi.data.ResponseHandler
-import com.masai.newsapi.data.db.NewsDAO
-import com.masai.newsapi.data.db.NewsEntity
+import com.masai.newsapi.data.local.NewsDAO
+import com.masai.newsapi.data.local.NewsEntity
 import com.masai.newsapi.data.model.Articles
 import com.masai.newsapi.data.model.NewsResponse
 import com.masai.newsapi.di.Module
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 class NewsRepository @Inject constructor(private val newsDAO: NewsDAO) {

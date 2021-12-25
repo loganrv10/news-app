@@ -1,9 +1,8 @@
-package com.masai.newsapi.data.db
+package com.masai.newsapi.data.local
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.masai.newsapi.data.model.Articles
 
 
 @Entity(tableName = "news_table")

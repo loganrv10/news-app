@@ -2,13 +2,9 @@ package com.masai.newsapi.ui.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.liveData
-import com.masai.newsapi.data.Resource
-import com.masai.newsapi.data.db.NewsEntity
-import com.masai.newsapi.data.model.NewsResponse
+import com.masai.newsapi.data.local.NewsEntity
 import com.masai.newsapi.data.repository.NewsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
 import javax.inject.Inject
 
 @HiltViewModel
