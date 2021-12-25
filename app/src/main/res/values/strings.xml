@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NewsAPI</string>
+    <string name="teslaNews">UK police trial Tesla cars as fleets prepare for shift to electric</string>
+    <string name="domain">tesla.com</string>
+
+</resources>
